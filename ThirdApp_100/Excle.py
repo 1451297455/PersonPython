@@ -49,7 +49,7 @@ for logfile in files:
 				continue
 			elif logs.startswith('WaitTime:'):
 				delaytime = logs.split(' ')[1]
-				doc.write(i, j, delaytime)
+				doc.write(i, j, int(delaytime))
 				asum = asum + int(delaytime)
 				j = j + 1
 				continue
