@@ -1,8 +1,9 @@
 import os
 
-keybackground11 = ['QQ', 'Wechat', 'Weibo', 'Kugou', 'facebook', 'BaiduMap', 'UC', 'Youku', 'Taobao', 'News', 'Sogou']
+keybackground11 = ['QQ', 'Wechat','Kugou', 'facebook', 'BaiduMap','Youku', 'Taobao', 'News', 'Sogou']
 os.system("adb   install -r app-debug.apk")
 os.system("adb   install -r app-debug-androidTest.apk")
+
 
 def launchByUia(testname):
 	os.system(

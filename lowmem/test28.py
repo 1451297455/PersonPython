@@ -1,6 +1,6 @@
 import os
 
-keybackground28 = ['QQ', 'Weibo', 'Wechat', 'Templerun', 'Huihuideal', 'Youku', 'Taobao', 'Tingshu', 'Aqiyi',
+keybackground28 = ['QQ',  'Wechat', 'Templerun', 'Huihuideal', 'Youku', 'Taobao', 'Tingshu', 'Aqiyi',
                    'BaiduMap', 'Damai', 'Dianping', 'Didi', 'Didapinche', 'Todaynews', 'Jingdong', 'Gifmaker',
                    'Mojiweather', 'Qsbk', 'Soufun', 'Sogou', 'Wandoujia', 'Ximalaya', 'QQzone', 'facebook', 'Kugou',
                    'UC']
